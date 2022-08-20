@@ -7,7 +7,7 @@ const App = () => {
     <>
       <SectionWrapper
         title='Your own store of Nifty NFTs. Start Selling & Growing'
-        description='Buy, store, collect NFTs, exchange & earn crypto. Join 25+ million people using ProNeft Marketplace.'
+        description='Buy, store, collect NFTs, exchange & earn crypto. Join 25+ million people using ProNef Marketplace.'
         showBtn
         mockupImg={assets.homeHero}
         banner='banner' />
@@ -30,7 +30,7 @@ const App = () => {
       <Download />
       <div className={`px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04`}>
         <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {' '}
-          <span className='bold'>Derek Prieur</span>
+          <span className='font-bold'>Derek Prieur</span>
         </p>
       </div>
     </>
